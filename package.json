@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@cloudinary/react": "^1.7.0",
+    "@cloudinary/url-gen": "^1.8.7",
+    "firebase": "^9.15.0",
+    "react-admin": "^4.7.1"
+  }
+}
