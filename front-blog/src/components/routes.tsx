@@ -10,7 +10,6 @@ import Verify from "./verify";
 import AccountActivated from "./accountActivated";
 import PublicProfile from "./public_profile";
 import AddPost from "./add-post";
-import Test from "./test";
 import  Edit from "./edit"
 
 type Props = {
@@ -31,7 +30,6 @@ export default function AppRoutes({}: Props) {
             <Route path="/verifyFailed" element={<VerifyFailed />} />
             <Route path="/activated" element={<AccountActivated />} />
             <Route path="/user/:userName" element={<PublicProfile />} />
-            <Route path="/test" element={<Test />} />
             <Route path="/edit" element={<Edit />} />
 
 
