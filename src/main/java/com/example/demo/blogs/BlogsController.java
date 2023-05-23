@@ -1,6 +1,5 @@
 package com.example.demo.blogs;
 
-import com.example.demo.comment.CommentService;
 import com.example.demo.models.*;
 import com.example.demo.my_users.MyUsersService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +11,7 @@ import java.util.List;
 public class BlogsController {
     @Autowired
     private BlogsService blogsService;
-    @Autowired
-    private MyUsersService myUsersService;
+
 
 
     //Blogs APIs

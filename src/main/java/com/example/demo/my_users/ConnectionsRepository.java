@@ -2,7 +2,6 @@ package com.example.demo.my_users;
 
 import com.example.demo.models.Connections;
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import java.util.List;
 
 public interface ConnectionsRepository extends JpaRepository<Connections, Long> {

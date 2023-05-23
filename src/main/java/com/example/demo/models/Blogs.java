@@ -43,9 +43,7 @@ public class Blogs implements Serializable {
     @JsonIgnore
     private List<BlogsLikes> likesUnlikes;
 
-    @OneToOne(fetch = FetchType.LAZY, mappedBy = "blog", cascade = CascadeType.ALL)
-    @JsonIgnore
-    private Image image;
+
 
 
 
